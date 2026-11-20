@@ -39,3 +39,13 @@ print("---Exercise 6---")
 
 print(df['region'].unique())
 print(df['region'].value_counts())
+
+print("---Exercise 7---")
+
+selected = df[['region', 'product', 'revenue']]
+print(selected.head())
+print(selected.shape)
+
+print("---Exercise 8---")
+
+df.to_csv('data/explored.csv', index=False)
