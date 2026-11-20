@@ -1,3 +1,7 @@
+# Reflection 1: The boolean checks if the rows meets a certain conditions by determining if its true or false.
+# Reflection 2: df['revenue] returns a single column of data as a series while df[['revenue']] returns a dataframe, which is a table containing one column.
+# Reflection 3: I would choose panda over excel because it allows easier ways to automate data cleaning and analysis quicker when working on large datasets. 
+# Excel forces you to manually filter and calculate information which does not help to get work done efficently. 
 
 
 print("---Exercise 1---")
